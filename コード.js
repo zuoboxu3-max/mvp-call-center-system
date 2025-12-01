@@ -127,8 +127,8 @@ function setupChatworkProperties() {
   const scriptProperties = PropertiesService.getScriptProperties();
 
   // ここにあなたのChatworkのルームIDとAPIトークンを設定してください
-  const CHATWORK_ROOM_ID = "405896274"; // 例:ここの”　”ルームIDを入力してください。
-  const CHATWORK_API_TOKEN = "45ca464fd3723afd86556abbf0859ba3"; // 例: ここの”　”を消さずにアカウントのAPIトークンをペーストしてください
+  const CHATWORK_ROOM_ID = "***************"; // 例:ここの”　”ルームIDを入力してください。
+  const CHATWORK_API_TOKEN = "**************"; // 例: ここの”　”を消さずにアカウントのAPIトークンをペーストしてください
   if (!CHATWORK_ROOM_ID || CHATWORK_ROOM_ID === "your_room_id_here" ||
       !CHATWORK_API_TOKEN || CHATWORK_API_TOKEN === "your_chatwork_api_token_here") {
     Logger.log("⚠️ ChatworkのルームIDまたはAPIトークンを正しく設定してください。");
